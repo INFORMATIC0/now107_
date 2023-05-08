@@ -24,5 +24,3 @@ def adminv():
 @app.route("/version")
 def ver():
 	return open('version', 'r').read()
-if __name__ == "__main__":
-    app.run()
